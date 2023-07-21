@@ -1,0 +1,77 @@
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.modal {
+  width: 600px;
+  margin: 50px auto 0 auto;
+  background-color: #fff;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.inputGroup {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.label {
+  width: 40%;
+  flex-shrink: 0;
+  line-height: 34px;
+  user-select: none;
+}
+
+.input {
+  width: 100%;
+  display: block;
+  border-radius: 7px;
+  padding: 4px 12px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  line-height: 32px;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid #abc7ff;
+}
+
+.input[readonly] {
+  background-color: #cccccc;
+}
+
+.button {
+  background-color: #2ac4ea;
+  border: 1px solid #2ac4ea;
+  border-radius: 7px;
+  padding: 7px 15px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 20px;
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+.button.active {
+  background-color: black;
+  color: white;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.buttonDanger {
+  background-color: #ff7a7a;
+  border: 1px solid #ff7a7aff;
+}
