@@ -41,8 +41,8 @@ export const EditCarModal = ({ onEditCarSubmit, editCarForm, onEditCarInputChang
                     </div>
 
                     <div>
-                        <button type="button" onClick={hideEditCarModal}>Cancel</button>
-                        <button type="button" onClick={onEditCarSubmit}>Submit</button>
+                        <button className={`${styles.button} ${styles.buttonDanger}`}  type="button" onClick={hideEditCarModal}>Cancel</button>
+                        <button className={styles.button}  type="button" onClick={onEditCarSubmit}>Submit</button>
                     </div>
                 </form>
             </div>
